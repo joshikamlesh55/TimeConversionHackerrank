@@ -1,4 +1,4 @@
-
+//HackerRank Problemm For Time Conversion
 #include <bits/stdc++.h>
 
 using namespace std;
@@ -28,8 +28,8 @@ string timeConversion(string s) {
             }
     }
     }
-    s.pop_back(); //removes the last element of the string i.e M
-    s.pop_back(); //Removes second last element i.e P or A
+    s.erase(); //removes the last element of the string i.e M
+    s.erase(); //Removes second last element i.e P or A
     return s;
 
 }
